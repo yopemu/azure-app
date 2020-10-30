@@ -1,0 +1,17 @@
+{
+  "hosting": [
+    {
+      "app": {
+        "project": "azure-app",
+        "target": "build",
+        "configuration": "production",
+        "path": "dist/azure-app"
+      },
+      "azureHosting": {
+        "subscription": "4154589c-62d5-404a-9ae5-0b3010c2b798",
+        "resourceGroupName": "azure-app-static-deploy62",
+        "account": "azureappstatic"
+      }
+    }
+  ]
+}
